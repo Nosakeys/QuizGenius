@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./formpage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald:wght@200&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="section1">
+      <div class="header">
+        <div class="header-right">
+          <p class="logo">QuizGenius</p>
+          <ul class="header-right-ul">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="header-left">
+          <button class="Register-button"><a href="homepage.html">Login</a></button>
+        </div>
+      </div>
+
+
+
+      <div class="main">
+        <div class="hero-card-1">
+          <div>
+            <h1>Play online quiz and earn points!</h1>
+            <p>Register to take the quiz</p>
+          </div>
+          <form action="quizpage.html" method="get">
+            <fieldset>
+              <legend>Fill Form</legend>
+              <div>
+                <label for="Username">Username:</label> <input type="text" id="username" name="username" required>
+              </div>
+              <div>
+                <label for="firstName">First Name:</label> <input type="text" id="firstname" name="firstname" required>
+              </div> 
+              <div>
+                <label for="LastName">Last Name:</label> <input type="text"  id="lastname" name="lastname"required>
+              </div> 
+              <div>
+                <label for="email">Email</label> <input type="email" id="email" name="email"required>
+              </div> 
+              <div>
+                <label for="Password">Password:</label> <input type="password" required>
+              </div>
+              <div>
+                <label for="gender">Gender:</label>
+                <div class="gender-sec">
+                  <input class="gender" type="radio" name="gender" required><label for="Male">Male</label>
+                  <input class="gender" type="radio" name="gender" required><label for="female">Female</label>
+                </div>
+              </div> 
+
+            
+              <div>
+                
+                 <button id="submit"><a href="quizpage.html">
+                  <!-- <input class="submit" type="submit"> -->
+                </a>REGISTER</button>
+                
+              </div>
+
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="hero-card-2">
+          <div class="hc2-div1">
+             <div>
+              <img class="hc2-div1-img1" src="./icons/boyread.jpg" alt="">
+            </div>
+            <div class="hc2-div1-img-div">
+              <img class="hc2-div1-img1" src="./icons/girlreading2.jpg" alt="">
+              <div class="effect-div1"></div>
+            </div> 
+            
+          </div>
+          <div class="hc2-div2">
+            <div class="hc2-div1-img-div2">
+              <img class="hc2-div1-img1" src="./icons//boyread.jpg" alt="">
+              <div class="effect-div2"></div>
+            </div>
+            <div>
+              <img class="hc2-div1-img1" src="./icons/girlreading2.jpg" alt="">
+            </div>
+          </div> 
+        </div>
+      </div>
+      
+    </div>
+  
+
+    <script src="new.js"></script>
+  </body>
+</html>

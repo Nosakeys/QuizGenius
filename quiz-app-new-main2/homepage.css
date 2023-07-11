@@ -1,0 +1,368 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #d2d4d6;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section1 {
+  width: 95%;
+  background-color: aqua;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.header-right-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  list-style: none;
+}
+.header-right-ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+.header-right-ul li a:hover {
+  color: rgb(43, 81, 186);
+}
+.Register-button {
+  font-size: 15px;
+  padding: 0.7rem 2rem;
+  border-color: rgb(255, 119, 0);
+  border-radius: 0.5rem;
+  background-color: rgb(255, 119, 0);
+  border-style: solid;
+}
+.Register-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: darkred; */
+  /* display: none; */
+}
+.hero-card-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0px;
+  /* background-color: darkslategrey; */
+}
+.hero-card-1 div h1 {
+  margin-bottom: 1.3rem;
+  font-size: 3rem;
+}
+.hero-card-1 div p {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+.hero-card-form {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+.hero-card-form div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-card-form div input {
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  height: 110%;
+  width: 20rem;
+  border-style: solid;
+  outline-color: rgb(43, 81, 186);
+  border-color: rgb(255, 119, 0);
+}
+/* .hero-card-form input::placeholder{
+  font-size: ;
+} */
+.hero-card-form button {
+  padding: 0.6rem 1.1rem;
+  font-size: 15px;
+  border-style: solid;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  outline: none;
+  background-color: rgb(255, 119, 0);
+  border-color: rgb(255, 119, 0);
+}
+.hero-card-form button a {
+  text-decoration: none;
+  color: black;
+  color: white;
+}
+
+.hero-card-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: cornflowerblue; */
+}
+.hc2-div1 {
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: -3rem;
+}
+.hc2-div2 {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-left: -2rem;
+}
+.hc2-div1-img1 {
+  width: 75%;
+  border-radius: 4px;
+}
+.hc2-div1-img-div {
+  position: relative;
+}
+
+.effect-div1 {
+  border-style: solid;
+  border-color: blue;
+  border-width: 1.5px;
+  border-radius: 4px;
+  outline: none;
+  height: 75%;
+  width: 76%;
+  position: absolute;
+  top: 21px;
+  left: -35px;
+  background-color: transparent;
+}
+.hc2-div1-img-div2 {
+  position: relative;
+}
+.effect-div2 {
+  border-style: solid;
+  border-color: rgb(255, 119, 0);
+  border-width: 1.5px;
+  border-radius: 4px;
+  outline: none;
+  height: 75%;
+  width: 76%;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: transparent;
+}
+
+.section2 {
+  width: 95%;
+  background-color: white;
+  padding: 2rem 4rem;
+}
+.section2-header {
+  display: flex;
+  justify-content: space-between;
+}
+.section2-header div {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.section2-1st-btn {
+  padding: 0.7rem 2rem;
+  border-radius: 0.5rem;
+  border-color: rgb(255, 119, 0);
+  color: rgb(255, 119, 0);
+  border-style: solid;
+}
+.section2-2nd-btn {
+  padding: 0.7rem 2rem;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 119, 0);
+  border-color: rgb(255, 119, 0);
+  color: white;
+  border-style: solid;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section1 {
+    padding: 2rem 5rem;
+    gap: 2rem;
+  }
+
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-card-1 {
+    padding: 3rem 2rem;
+  }
+  .hero-card-2 {
+    display: none;
+  }
+  .hero-card-form {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .hero-card-form div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-card-form div input {
+    height: 110%;
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 1075px) {
+  .hero-card-form div input {
+    height: 110%;
+    width: 17rem;
+  }
+  .header-right {
+    gap: 3rem;
+  }
+  .header-right-ul {
+    gap: 2rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header-right {
+    gap: 1.5rem;
+  }
+  .section1 {
+    padding: 2rem 5rem;
+    gap: 2rem;
+  }
+  .Register-button {
+    font-size: 13px;
+    padding: 0.7rem 1rem;
+  }
+  .hero-card-1 {
+    padding: 3rem 5rem;
+  }
+  .hero-card-form{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-card-1 div h1{
+    text-align: center;
+  }
+  /* .hero-card-form div input {
+    width: 20rem;
+  } */
+}
+
+@media only screen and (max-width: 839px) {
+  .header {
+    justify-content: 3rem;
+  }
+  .header-right {
+    gap: 1rem;
+  }
+  .section1 {
+    padding: 2rem 5rem;
+    gap: 2rem;
+  }
+  .hero-card-1 {
+    padding: 3rem 8rem;
+  }
+  .header-right-ul {
+    gap: 2rem;
+    
+  }
+}
+
+@media only screen and (max-width: 816px) {
+  .header {
+    justify-content: 3rem;
+  }
+  .header-right {
+    gap: 0.7rem;
+  }
+  .section1 {
+    padding: 2rem 5rem;
+    gap: 2rem;
+  }
+  .hero-card-1 {
+    padding: 3rem 8rem;
+  }
+  
+}
+@media only screen and (max-width: 806px) {
+  .Register-button {
+    padding: 0.7rem 0.5rem;
+   
+  }
+  .header {
+    justify-content: center;
+    gap: 5px;
+  }
+  .header-right {
+    gap: 1rem;
+  }
+  .header-right-ul {
+    gap: 1.8rem;
+  }
+
+}
+@media only screen and (max-width: 783px) {
+  .Register-button {
+    padding: 0.7rem 0.5rem;
+   
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-right {
+    gap: 1rem;
+  }
+  .header-right-ul {
+    gap: 1.8rem;
+  }
+  .hero-card-form div input {
+    width: 16rem;
+  }
+
+}
+@media only screen and (max-width: 698px) {
+  .hero-card-form div input {
+    width: 16rem;
+  }
+
+}

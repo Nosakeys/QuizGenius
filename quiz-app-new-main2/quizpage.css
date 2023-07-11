@@ -1,0 +1,253 @@
+*{
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+body{
+  background-color: white;
+}
+.body{
+  height: 100vh;
+  width: 100%;
+  padding-top: 5rem;
+  padding-left: 17rem;
+}
+#log{
+  color: white;
+  text-decoration: none;
+}
+#logout{
+  font-size: 15px;
+  padding: .7rem 2rem;
+  border-color: rgb(255, 119, 0);
+  border-radius: .5rem;
+  background-color: rgb(255, 119, 0);
+  border-style: solid;
+}
+.header{
+  background-color: #d2d4d6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 100%;
+  z-index: 1;
+}
+.header-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.logo{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.header-right-ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  list-style: none;
+}
+.header-right-ul li a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+.header-right-ul li a:hover{
+  color: rgb(43, 81, 186);
+}
+.fa{
+  font-size: 27px;
+}
+
+.profile-name p{
+  color: black;
+}
+
+
+
+
+.main{
+  width: 100%;
+  background-color: #d2d4d6;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+ .questions-field{
+  background-color: #f7f9fa;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+} 
+/* .questions-field-form{
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+} */
+h4{
+  font-size: 25px;
+}
+#submit, #next{
+  border-radius: 5px;
+  outline: none;
+  width: 5rem;
+  height: 3rem;
+  border-style: solid;
+  border-width: 1px;
+  background-color:  rgb(255, 119, 0);
+  border-color:  rgb(255, 119, 0);
+  color: white;
+}
+/* .ul-options{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+} */
+.list{
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+}
+.option{
+  font-size: 20px;
+}
+
+
+
+
+.side-bar{
+  background-color: rgb(0,255,255);
+ 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 6.7%;
+  right: 85% ;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+.profile-card{
+  width: 50%;
+  height: 50%;
+}
+.profile-name-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: .2rem;
+  margin-bottom: 1.5rem;
+}
+.profile-name{
+  font-size: 20px;
+  color: black; 
+}
+.a-profile-name-edit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-name-edit{
+  width: 20px;
+  cursor: pointer;
+}
+
+
+.side-bar-btns{
+  display: flex;
+  flex-direction: column;
+}
+.side-bar-btns-container{
+  display: flex;
+  align-items: center;
+  padding: .4rem 2rem;
+  gap: .5rem;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: backgroung-color 0.10s, border 0.10s;
+}
+/* .side-bar-btns-container:hover{
+  border-color: rgb(255, 119, 0);
+  border: 10px solid aqua;
+}  */
+.side-bar-btn-img{
+  /* width: 17%; */
+  color: white;
+  width: 30px;
+}
+.side-bar-btn-p{
+  font-size: 20px;
+  color: black;
+}
+
+#timer-container{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#subject{
+  font-size: 2rem;
+}
+
+
+
+/* .time{
+  background-color: goldenrod;
+  padding: .4rem;
+  position: fixed;
+  right: 40px;
+  top: 70px;
+} */
+
+#withdraw{
+  border-radius: 5px;
+  outline: none;
+  width: 7rem;
+  height: 3rem;
+  border-style: solid;
+  border-width: 1px;
+  background-color:  rgb(255, 119, 0);
+  border-color:  rgb(255, 119, 0);
+  color: white;
+  
+}
+#subject-buttons{
+  display: flex;
+  flex-direction: column;
+  
+}
+#cash-prize{
+  margin:.6rem auto ;
+  font-size: 3rem;
+}
+
+#ict,#general,#science{
+  border-radius: 5px;
+  outline: none;
+  
+  font-size: large;
+  height: 2rem;
+  border-style: solid;
+  border-width: 1px;
+  background-color:  rgb(0, 225, 255);
+  border-color:  rgba(255, 119, 0, 0.134);
+  color: black;
+
+}
+
+#ict:hover, #general:hover, #science:hover{
+  cursor: pointer;
+  background-color: rgb(255,65,85);
+}

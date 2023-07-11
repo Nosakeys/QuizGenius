@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/2cb6189c35.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="quizpage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="body">
+      <div class="header">
+        <div class="header-right">
+          <p class="logo">QuizGenius</p>
+          <ul class="header-right-ul">
+            <div id="timer-container">
+              Time Remaining: <span id="timer"></span>
+            </div>
+            <!-- <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Laughs</a></li>
+            <li><a href="">Dance</a></li> -->
+          </ul>
+          <p id="subject"></p>
+        </div>
+        <button id="logout"><a id="log" href="homepage.html">Logout</a></button>
+        <!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
+      </div>
+
+      <div class="main">
+        <div class="questions-field" id="container">
+          <!-- <form action="" method="" class="questions-field-form" > -->
+          <!-- <button id="ict">Click Here To Start Exam</button> -->
+          <!-- <h4>Which of the statement below best suit the definition of a Noun?</h4>
+              <ul class="ul-options">
+                <li class="list"><input type="radio" name="quest" id="opt1"> <label for="opt1" class="option">Noun is a doing word</label></li>
+                <li class="list"><input type="radio" name="quest" id="opt2"> <label for="opt2" class="option">Noun is a dancing</label></li>
+                <li class="list"><input type="radio" name="quest" id="opt3"> <label for="opt3" class="option">Noun is a looking word</label></li>
+                <li class="list"><input type="radio" name="quest" id="opt4"> <label for="opt4" class="option">Noun is a naming word</label></li>
+                <li class="list"><input type="radio" name="quest" id="opt5"> <label for="opt5" class="option">Noun is a laughing word</label></li>
+             </ul> -->
+          <!-- </form> -->
+        </div>
+        
+        <button id="submit">SUBMIT</button>
+        <div id="prize">
+          <p id="cash-prize"></p>
+          <!-- <button id="withdraw">Click Here to Withdraw</button> -->
+        </div>
+      </div>
+
+      <div class="side-bar">
+        <!-- HTML code for the timer display -->
+
+        <div>
+          <img class="profile-card" src="./icons/profilecard.png" alt="" />
+        </div>
+        <div class="profile-name-div">
+          <p class="profile-name">QuizGenius</p>
+          <a class="a-profile-name-edit"
+            ><img class="profile-name-edit" src="./icons/hamburger.svg" alt=""
+          /></a>
+        </div>
+
+        <div class="side-bar-btns">
+          <!-- <a class="side-bar-btns-container">
+          <img class="side-bar-btn-img" src="./icons/hamburger.svg" alt="">
+          <p class="side-bar-btn-p">Profile</p>
+        </a>
+        <a class="side-bar-btns-container">
+          <img class="side-bar-btn-img" src="./icons/hamburger.svg" alt="">
+          <p class="side-bar-btn-p">Home</p>
+        </a>
+        <a class="side-bar-btns-container" >
+          <img class="side-bar-btn-img" src="./icons/hamburger.svg" alt="">
+          <p class="side-bar-btn-p">Scores: </p>
+        </a>-->
+          <a class="side-bar-btns-container">
+            <img class="side-bar-btn-img" src="./icons/hamburger.svg" alt="" />
+            <p class="side-bar-btn-p">SUBJECTS</p>
+          </a>
+          <div id="subject-buttons">
+            <button id="ict">ICT</button>
+            <button id="general">General Knowledge</button>
+            <button id="science">Science & Nature</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="new.js"></script>
+  </body>
+</html>
